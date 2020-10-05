@@ -65,6 +65,9 @@ if __name__=='__main__':
     
     root = Tk()
     
+   my_gui = Calculator(root)
+    
+    root.mainloop()
 
 
 
