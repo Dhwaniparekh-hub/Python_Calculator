@@ -44,5 +44,11 @@ class Calculator:
                 c+=1
             r+=1
 
+    def addButton(self,value):
+        return Button(self.master, text=value, width=9, command = lambda: self.clickButton(str(value)))
+    
+
+
+
 
 
