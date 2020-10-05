@@ -61,6 +61,10 @@ class Calculator:
             self.equation.delete(0, END)
             self.equation.insert(0, current_equation+value)
 
+if __name__=='__main__':
+    
+    root = Tk()
+    
 
 
 
